@@ -1,0 +1,57 @@
+font:
+  normal:
+    family: CozetteVector
+    style: Regular
+
+  bold:
+    family: CozetteVector
+    style: Bold
+
+  italic:
+    family: CozetteVector
+    style: Italic
+
+  bold_italic:
+    family: CozetteVector
+    style: Bold Italic
+
+  size: 14
+
+shell:
+  program: /usr/bin/byobu
+
+window:
+  dimensions:
+    columns: 124
+    lines: 30
+
+colors:
+  # Default colors
+  primary:
+    background: '0x1d1f21'
+    foreground: '0xc5c8c6'
+
+  # Normal colors
+  normal:
+    black:   '0x1d1f21'
+    red:     '0xcc342b'
+    green:   '0x198844'
+    yellow:  '0xfba922'
+    blue:    '0x3971ed'
+    magenta: '0xa36ac7'
+    cyan:    '0x3971ed'
+    white:   '0xc5c8c6'
+
+  # Bright colors
+  bright:
+    black:   '0x969896'
+    red:     '0xcc342b'
+    green:   '0x198844'
+    yellow:  '0xfba922'
+    blue:    '0x3971ed'
+    magenta: '0xa36ac7'
+    cyan:    '0x3971ed'
+    white:   '0xffffff'
+
+key_bindings:
+  - { key: F11, action: ToggleFullscreen }
