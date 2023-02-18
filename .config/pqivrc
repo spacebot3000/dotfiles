@@ -1,0 +1,3 @@
+[options]
+hide-info-box=true
+window-title=pqiv: $BASEFILENAME ($WIDTHx$HEIGHT) $ZOOM%
