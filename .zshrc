@@ -95,6 +95,8 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR='nvim'
 export VISUAL='nvim'
 export MOZ_ENABLE_WAYLAND=1
+export GTK_USE_PORTAL=1
+export BYOBU_NO_TITLE=1
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -112,7 +114,7 @@ alias syu="sudo pacman -Syu && paru -Sua"
 alias logitech="sudo systemctl restart logid"
 alias pi="sudo pacman -Syu"
 alias pr="sudo pacman -Rns"
-alias pse="pacman -Ss"
+alias pse="paru -Ss"
 alias vim="nvim"
 alias nimc="nim c -d:release"
 alias nimd="nim c"
