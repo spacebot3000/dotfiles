@@ -119,6 +119,7 @@ alias vim="nvim"
 alias nimc="nim c -d:release"
 alias nimd="nim c"
 alias jlf="ssh dietpi@192.168.2.155"
+alias pai="paru -S"
 
 path+=(/home/keenen/.nimble/bin)
 export PATH
