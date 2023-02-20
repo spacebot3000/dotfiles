@@ -1,3 +1,7 @@
 # spacebot3000's dotfiles
 
-Deps: oh-my-zsh for the zsh config, and vim-plug for the neovim config.
+**Deps:** 
+
+- oh-my-zsh (and my custom zsh theme, arrow) for the zsh config
+- vim-plug (plugins: bogster, lualine.nvim, nvim-web-devicons, vim-repeat, leap.nvim, nim.vim) and for the neovim config
+- Terminus font with nerd patches for Alacritty
