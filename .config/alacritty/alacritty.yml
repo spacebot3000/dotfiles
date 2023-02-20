@@ -1,18 +1,18 @@
 font:
   normal:
-    family: CozetteVector
-    style: Regular
+    family: TerminessTTF Nerd Font
+    style: Medium
 
   bold:
-    family: CozetteVector
+    family: TerminessTTF Nerd Font 
     style: Bold
 
   italic:
-    family: CozetteVector
+    family: TerminessTTF Nerd Font
     style: Italic
 
   bold_italic:
-    family: CozetteVector
+    family: TerminessTTF Nerd Font
     style: Bold Italic
 
   size: 14
