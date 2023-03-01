@@ -17,7 +17,7 @@ Plug 'tpope/vim-repeat'
 
 Plug 'ggandor/leap.nvim'
 
-Plug 'zah/nim.vim'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
@@ -67,4 +67,6 @@ require('lualine').setup {
 END
 
 lua require('leap').add_default_mappings()
+
+lua require'lspconfig'.hls.setup{}
 
