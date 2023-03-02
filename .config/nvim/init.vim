@@ -1,4 +1,5 @@
 set wrap
+set linebreak
 set number
 set noshowmode
 set clipboard+=unnamedplus
