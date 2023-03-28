@@ -7,16 +7,12 @@ export ZSH="/home/keenen/.oh-my-zsh"
 ZSH_THEME="arrow"
 
 # Aliases
-alias syu="sudo pacman -Syu && paru -Sua"
-alias logitech="sudo systemctl restart logid"
+alias syu="sudo pacman -Syu && yay -Sua"
 alias pi="sudo pacman -Syu"
 alias pr="sudo pacman -Rns"
-alias pse="paru -Ss"
+alias pse="yay -Ss"
 alias vim="nvim"
-alias nimc="nim c -d:release"
-alias nimd="nim c"
-alias jlf="ssh dietpi@192.168.2.155"
-alias pai="paru -S"
+alias pai="yay -S"
 
 # Environment variables
 export EDITOR='nvim'
