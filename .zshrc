@@ -21,10 +21,6 @@ export MOZ_ENABLE_WAYLAND=1
 export GTK_USE_PORTAL=1
 export BYOBU_NO_TITLE=1
 
-# Add nimble to PATH
-path+=(/home/keenen/.nimble/bin)
-export PATH
-
 # Plugins
 plugins=(zsh-autosuggestions)
 
