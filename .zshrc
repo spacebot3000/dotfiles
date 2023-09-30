@@ -11,6 +11,8 @@ alias pr="sudo pacman -Rns"
 alias pse="yay -Ss"
 alias vim="nvim"
 alias pai="yay --removemake -S"
+alias day="plasma-apply-colorscheme CatppuccinLatteSapphire"
+alias night="plasma-apply-colorscheme CatppuccinFrappeSapphire"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
