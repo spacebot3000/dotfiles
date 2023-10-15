@@ -5,24 +5,16 @@ set noshowmode
 set clipboard+=unnamedplus
 
 call plug#begin()
-
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-
 Plug 'vv9k/bogster'
-
 Plug 'nvim-lualine/lualine.nvim'
-
 Plug 'kyazdani42/nvim-web-devicons'
-
 Plug 'tpope/vim-repeat'
-
 Plug 'ggandor/leap.nvim'
-
 Plug 'neovim/nvim-lspconfig'
-
 call plug#end()
 
-colorscheme bogster
+colorscheme catppuccin
 
 lua << END
 require('lualine').setup {
