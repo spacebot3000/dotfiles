@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <core>
+    <gap>10</gap>
+  </core>
+  <theme>
+    <name>Triste-Violet</name>
+    <cornerRadius>3</cornerRadius>
+    <font name="Iosevka" size="11"/>
+  </theme>
+  <keyboard>
+    <default/>
+    <keybind key="W-t">
+      <action name="Execute" command="alacritty"/>
+    </keybind>
+    <keybind key="XF86_AudioLowerVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%"/>
+    </keybind>
+    <keybind key="XF86_AudioRaiseVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +5%"/>
+    </keybind>
+    <keybind key="XF86_AudioMute">
+      <action name="Execute" command="pactl set-sink-mute @DEFAULT_SINK@ toggle"/>
+    </keybind>
+    <keybind key="XF86_MonBrightnessUp">
+      <action name="Execute" command="brightnessctl set +10%"/>
+    </keybind>
+    <keybind key="XF86_MonBrightnessDown">
+      <action name="Execute" command="brightnessctl set 10%-"/>
+    </keybind>
+    <keybind key="W-Space">
+      <action name="Execute" command="bemenu-run -i -B 5 -l 7 -M 300 -c --fn 'Iosevka 22' --tb='#222222' --tf='#bbbbbb' --fb='#222222' --nb='#222222' --nf='#bbbbbb' --hb='#005577' --hf='#eeeeee' --bdr='#CEE5FF' -p ''"/>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute" command="swaylock -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka"/>
+    </keybind>
+    <keybind key="A-Escape">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="W-p">
+      <action name="Execute" command="wdisplays"/>
+    </keybind>
+    <keybind key="XF86PowerOff">
+      <action name="Execute" command="wlogout"/>
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default/>
+    <!-- Show a custom menu on desktop right click -->
+    <context name="Root">
+      <mousebind button="Right" action="Press">
+        <action name="ShowMenu" menu="rightmenu"/>
+      </mousebind>
+    </context>
+    <context name="Frame">
+      <mousebind button="W-Right" action="Press">
+        <action name="Iconify"/>
+      </mousebind>
+    </context>
+    <context name="Frame">
+      <mousebind button="W-Left" action="Drag">
+        <action name="Move"/>
+      </mousebind>
+    </context>
+  </mouse>
+  <libinput>
+    <device>
+      <naturalScroll>yes</naturalScroll>
+    </device>
+  </libinput>
+</labwc_config>
