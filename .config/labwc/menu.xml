@@ -51,6 +51,9 @@
   <item label="Thunar">
 	  <action name="Execute" command="thunar" />
   </item>
+  <item label="Qalculate">
+	  <action name="Execute" command="qalculate-gtk" />
+  </item>
 </menu>
 
 <menu id="rightmenu">
