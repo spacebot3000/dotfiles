@@ -10,3 +10,6 @@
 - sway idle and swaylock
 - waybar
 - labwc
+- wlogout
+- wdisplays
+- systemd-logind should be configured to handle lid switch events, and to ignore power button presses
