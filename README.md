@@ -7,3 +7,6 @@
 - Terminus font with nerd patches for Alacritty
 - Iosevka font for waybar and labwc
 - Tela-dark icon theme in ~/.local/share/icons
+- sway idle and swaylock
+- waybar
+- labwc
