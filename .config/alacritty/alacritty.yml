@@ -1,17 +1,14 @@
 font:
   normal:
     family: Terminess Nerd Font
-    #family: IntelOne Mono
     style: Regular
 
   bold:
     family: Terminess Nerd Font 
-    #family: IntelOne Mono
     style: Bold
 
   italic:
     family: Terminess Nerd Font
-    #family: IntelOne Mono
     style: Italic
 
   bold_italic:
