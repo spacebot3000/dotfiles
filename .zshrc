@@ -1,4 +1,4 @@
-export PATH=/home/keenen/.ghcup/bin:$PATH
+export PATH=~/.ghcup/bin:$PATH
 
 # Path to oh-my-zsh installation.
 export ZSH="/home/keenen/.oh-my-zsh"
