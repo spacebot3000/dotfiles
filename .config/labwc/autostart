@@ -1,5 +1,5 @@
 # Set background color.
-swaybg -i '/home/keenen/Pictures/Papes/moon.jpeg' >/dev/null 2>&1 &
+swaybg -i '~/Pictures/Papes/moon.jpeg' >/dev/null 2>&1 &
 
 # Configure output directives such as mode, position, scale and transform.
 # Use wlr-randr to get your output names
@@ -32,4 +32,4 @@ blueman-applet >/dev/null 2>&1 &
 #	timeout 600 'wlopm --off \*' \
 #	resume 'wlopm --on \*' \
 #	before-sleep 'swaylock -f -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka' >/dev/null 2>&1 &
-swayidle -w timeout 300 "swaylock -f -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka" timeout 600 "wlopm --off \*" timeout 1000 "systemctl suspend" resume "wlopm --on \*" before-sleep "swaylock -f -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka" >/dev/null 2>&1 &
+swayidle -w timeout 300 "swaylock -f -i ~/Pictures/Papes/cats.jpg --font Iosevka" timeout 600 "wlopm --off \*" timeout 1000 "systemctl suspend" resume "wlopm --on \*" before-sleep "swaylock -f -i ~Pictures/Papes/cats.jpg --font Iosevka" >/dev/null 2>&1 &
