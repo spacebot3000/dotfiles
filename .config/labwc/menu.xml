@@ -22,7 +22,7 @@
     Any menu with the id "workspaces" will be hidden
     if there is only a single workspace available.
   -->
-  <!--    <menu id="workspaces" label="Workspace">
+    <menu id="workspaces" label="Workspace">
     <item label="Move left">
       <action name="SendToDesktop" to="left" />
     </item>
@@ -33,7 +33,7 @@
   <item label="Close">
     <action name="Close" />
   </item>
-  </menu> -->
+  </menu>
 
 <menu id="root-menu">
   <item label="Terminal">
