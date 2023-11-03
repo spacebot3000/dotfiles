@@ -43,7 +43,7 @@
     <action name="Execute" command="firefox" />
   </item>
   <item label="Steam">
-	  <action name="Execute" command="steam" />
+	  <action name="Execute" command="steam-runtime" />
   </item>
   <item label="Obsidian">
 	  <action name="Execute" command="obsidian" />
