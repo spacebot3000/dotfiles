@@ -48,8 +48,8 @@
   <item label="Obsidian">
 	  <action name="Execute" command="obsidian" />
   </item>
-  <item label="Thunar">
-	  <action name="Execute" command="thunar" />
+  <item label="PCManFM">
+	  <action name="Execute" command="pcmanfm" />
   </item>
   <item label="Qalculate">
 	  <action name="Execute" command="qalculate-gtk" />
