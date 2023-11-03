@@ -28,7 +28,7 @@ padding.width: 4
 padding.height: 4
 
 window.active.border.color: #cee5ff
-window.inactive.border.color: #2f343f
+window.inactive.border.color: #566a80
 window.active.title.separator.color: #2f343f
 window.inactive.title.separator.color: #2f343f
 window.active.client.color: #2f343f
