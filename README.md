@@ -12,5 +12,6 @@
 - labwc
 - wlogout
 - wdisplays
+- j4-dmenu-desktop and bemenu
 - otf-font-awesome for waybar icons
 - systemd-logind should be configured to handle lid switch events, and to ignore power button presses
