@@ -69,14 +69,20 @@
     padding-right: 10px;
 }
 
+#custom-launcher {
+	padding-left: 5px;
+	color: white;
+}
+
 #taskbar {
-	padding-left: 10px;
+	padding-left: 8px;
 	padding-right: 10px;
 }
 
 #taskbar button {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: white;
 }
 /* -----------------------------------------------------------------------------
  * Module styles
@@ -163,24 +169,4 @@
 
 #window {
     font-weight: bold;
-}
-
-#workspaces button {
-    border-top: 2px solid transparent;
-    /* To compensate for the top border and still have vertical centering */
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #888888;
-}
-
-#workspaces button.focused {
-    border-color: #4c7899;
-    color: white;
-    background-color: #285577;
-}
-
-#workspaces button.urgent {
-    border-color: #c9545d;
-    color: #c9545d;
 }
