@@ -2,7 +2,6 @@ export PATH=~/.ghcup/bin:$PATH
 
 # Path to oh-my-zsh installation.
 export ZSH="/home/keenen/.oh-my-zsh"
-
 ZSH_THEME="arrow"
 
 alias syu="sudo pacman -Syu && yay --removemake --nocleanmenu --nodiffmenu -Sua"
@@ -12,6 +11,8 @@ alias pse="yay -Ss"
 alias vim="nvim"
 alias pai="yay --removemake -S"
 alias hgrep="history | grep -i"
+alias lsgrep="ls | grep -i"
+alias scr="slurp | grim -g - screen.png"
 
 export EDITOR='nvim'
 export VISUAL='nvim'
