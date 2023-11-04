@@ -29,7 +29,7 @@
       <action name="Execute" command="brightnessctl set 10%-"/>
     </keybind>
     <keybind key="W-Return">
-      <action name="Execute" command="bemenu-run -i -B 5 -l 7 -M 300 -c --fn 'Iosevka 22' --tb='#222222' --tf='#bbbbbb' --fb='#222222' --nb='#222222' --nf='#bbbbbb' --hb='#005577' --hf='#eeeeee' --bdr='#CEE5FF' -p 'Run:'"/>
+	    <action name="Execute" command="~/.config/labwc/bemenu.sh"/>
     </keybind>
     <keybind key="W-l">
       <action name="Execute" command="swaylock -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka"/>
