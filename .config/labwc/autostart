@@ -1,5 +1,5 @@
 # Set wallpaper
-swaybg -i '/home/keenen/Pictures/Papes/moon.jpeg' >/dev/null 2>&1 &
+swaybg -i ~/Pictures/Papes/Corrupt_Desert_background.png >/dev/null 2>&1 &
 
 # Configure output directives such as mode, position, scale and transform.
 # Use wlr-randr to get your output names
@@ -20,4 +20,4 @@ blueman-applet >/dev/null 2>&1 &
 #mako >/dev/null 2>&1 &
 
 # Lock screen after 5 minutes; turn off display after another 5 minutes.
-swayidle -w timeout 300 "swaylock -f -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka" timeout 600 "wlopm --off \*" timeout 1000 "systemctl suspend" resume "wlopm --on \*" before-sleep "swaylock -f -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka" >/dev/null 2>&1 &
+swayidle -w timeout 300 "swaylock -f -i ~/Pictures/Papes/wallhaven-lm2ryl.jpg --font Iosevka" timeout 600 "wlopm --off \*" timeout 1000 "systemctl suspend" resume "wlopm --on \*" before-sleep "swaylock -f -i ~/Pictures/Papes/wallhaven-lm2ryl.jpg --font Iosevka" >/dev/null 2>&1 &
