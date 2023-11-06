@@ -1,0 +1,1 @@
+j4-dmenu-desktop --dmenu="bemenu -i -B 5 -l 7 -M 300 -c --fn 'Iosevka 22' --tb='#222222' --tf='#bbbbbb' --fb='#222222' --nb='#222222' --nf='#bbbbbb' --hb='#005577' --hf='#eeeeee' --bdr='#CEE5FF' -p 'Run:'"

@@ -14,7 +14,7 @@
       <action name="Execute" command="alacritty"/>
     </keybind>
     <keybind key="XF86_AudioLowerVolume">
-      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%"/>
+	    <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%"/>
     </keybind>
     <keybind key="XF86_AudioRaiseVolume">
       <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +5%"/>
@@ -29,10 +29,10 @@
       <action name="Execute" command="brightnessctl set 10%-"/>
     </keybind>
     <keybind key="W-Return">
-	    <action name="Execute" command="~/.config/labwc/bemenu.sh"/>
+	    <action name="Execute" command="~/.config/labwc/menu.sh"/>
     </keybind>
     <keybind key="W-l">
-      <action name="Execute" command="swaylock -i /home/keenen/Pictures/Papes/cats.jpg --font Iosevka"/>
+	    <action name="Execute" command="~/.config/labwc/lock.sh"/>
     </keybind>
     <keybind key="A-Escape">
       <action name="Close"/>
