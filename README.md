@@ -6,8 +6,9 @@
 - vim-plug (plugins: catppuccin, lualine.nvim, nvim-web-devicons, vim-repeat, leap.nvim, nvim-lspconfig) for the neovim config
 - Terminus font with nerd patches for Alacritty
 - Iosevka font for waybar and labwc
-- Tela-dark icon theme in ~/.local/share/icons
-- sway idle and swaylock
+- (possibly 0xProto font)
+- Zafiro icon theme in ~/.local/share/icons
+- swayidle and swaylock
 - waybar
 - labwc
 - wlogout
