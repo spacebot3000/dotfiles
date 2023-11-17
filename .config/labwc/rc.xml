@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <labwc_config>
   <core>
-    <gap>10</gap>
+    <gap>1</gap>
   </core>
   <theme>
     <name>Triste-Violet</name>
     <cornerRadius>3</cornerRadius>
-    <font name="Iosevka" size="11.5"/>
+    <font name="0xproto" size="11"/>
   </theme> 
   <keyboard>
     <default/>
