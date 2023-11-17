@@ -45,3 +45,4 @@ export VISUAL='nvim'
 export MOZ_ENABLE_WAYLAND=1
 export GTK_USE_PORTAL=1
 export BYOBU_NO_TITLE=1
+export LESS='--mouse --wheel-lines=3'
