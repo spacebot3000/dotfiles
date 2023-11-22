@@ -14,13 +14,13 @@
       <action name="Execute" command="alacritty"/>
     </keybind>
     <keybind key="XF86_AudioLowerVolume">
-	    <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%"/>
+	    <action name="Execute" command="~/.config/labwc/vol.sh down"/>
     </keybind>
     <keybind key="XF86_AudioRaiseVolume">
-      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +5%"/>
+      <action name="Execute" command="~/.config/labwc/vol.sh up"/>
     </keybind>
     <keybind key="XF86_AudioMute">
-      <action name="Execute" command="pactl set-sink-mute @DEFAULT_SINK@ toggle"/>
+      <action name="Execute" command="~/.config/labwc/vol.sh mute"/>
     </keybind>
     <keybind key="XF86_MonBrightnessUp">
       <action name="Execute" command="brightnessctl set +10%"/>
