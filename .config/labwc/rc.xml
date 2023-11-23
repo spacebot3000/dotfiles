@@ -32,7 +32,7 @@
 	    <action name="Execute" command="~/.config/labwc/menu.sh"/>
     </keybind>
     <keybind key="W-l">
-	    <action name="Execute" command="~/.config/labwc/lock.sh"/>
+	    <action name="Execute" command="swaylock"/>
     </keybind>
     <keybind key="A-Escape">
       <action name="Close"/>
