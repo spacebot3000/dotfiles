@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 case "$1" in
 	"up")
 		makoctl dismiss && pactl set-sink-volume @DEFAULT_SINK@ +5% && notify-send -t 750 "Volume: $(pactl get-sink-volume @DEFAULT_SINK@ | grep --only-matching '\w\w%' | head -1)"
